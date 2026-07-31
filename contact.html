@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Contact Green Haven for any questions about indoor plants, orders, or plant care. We reply within 24 hours."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="asests/style.css" />
+    <title>Green Haven | Indoor Plant Shop</title>
+  </head>
+  <body>
+    <header>
+      <h1>Green Haven</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="" method="post">
+          <div>
+            <label for="fullName">Full Name</label>
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              placeholder="Your full name"
+              maxlength="30"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
+          <div>
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+970 59 123 4567"
+              pattern="[0-9\s+()-]{7,}"
+            />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Tell us what you need..."
+              required
+            ></textarea>
+          </div>
+          <div>
+            <label for="country">Country</label>
+            <select id="country" name="country" required>
+              <option value="">Select country</option>
+              <option value="Palestine">Palestine</option>
+              <option value="Qatar">Qatar</option>
+              <option value="Egypt">Egypt</option>
+              <option value="Lebanon">Lebanon</option>
+            </select>
+          </div>
+          <div>
+            <button title="Submit" name="submit" type="submit">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 Green Haven - The beauty of nature in every corner</p>
+    </footer>
+    <script src="js%20folder/script.js"></script>
+  </body>
+</html>
+<!-- value important in checkbox and select and radio -->
