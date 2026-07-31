@@ -7,23 +7,28 @@
       content="Learn about Green Haven's story and our passion for bringing the best indoor plants to your home and office."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us</title>
-    <link rel="stylesheet" href="asests/style.css" />
+    <meta name="theme-color" content="#2d5016" />
+    <title>About Us - Green Haven</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   </head>
   <body class="about-page">
-    <header>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header role="banner">
       <h1>Green Haven</h1>
-      <nav>
+      <nav aria-label="Main navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
           <li><a href="products.html">Products</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <main class="about-page">
+    <main id="main-content" role="main">
       <section id="about" class="page-section about-panel">
         <div class="section-intro fade-in">
           <span class="section-tag">About Green Haven</span>
@@ -94,12 +99,12 @@
       </section>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
       <p>
         &copy; <span id="footer-year"></span> Green Haven. All rights reserved.
       </p>
     </footer>
 
-    <script src="js folder/script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
