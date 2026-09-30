@@ -18,7 +18,3 @@ Green Haven is a responsive indoor plant shop website built with HTML, CSS, and 
 
 ## 🚀 Live Demo
 [View Live](https://se-maiabuamsha.github.io/Green-Haven/)
-
-## 📦 Installation
-```bash
-git clone https://github.com/[your-username]/[repository-name].git
